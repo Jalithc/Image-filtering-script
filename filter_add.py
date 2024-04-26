@@ -1,9 +1,9 @@
+'''import the required modules, Libraries and etc.'''
 import math
-
 import sys
-
 from PIL import Image, ImageFilter
 
+'''check the number of arguments'''
 if len(sys.argv) != 2:
     sys.exit("Add the picture file")
 
